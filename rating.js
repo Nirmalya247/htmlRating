@@ -14,7 +14,10 @@
       for (var i = 0; i < maxRating; i++) {
         var star = document.createElement('li');
         star.classList.add('c-rating__item');
-		star.style.cssText = '-webkit-box-flex: 0; cursor: pointer; overflow: hidden; display: inline-block;';
+		star.style.cssText = '-webkit-box-flex: 0; overflow: hidden; display: inline-block;';
+		if (!fixed) {
+			star.style.cursor = 'pointer';
+		}
         star.setAttribute('data-index', i);
 		star.style.height = size + 'px';
 		star.style.width = size + 'px';
