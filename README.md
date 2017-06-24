@@ -1,12 +1,9 @@
 create rating element in html, get value, set size, set color, set if rate value is fixed
 
 example >
-
+...
 attributes >
-
-
 value: int(0-max)
-
 max: int(no of star)
 callback
 star size in pixel
@@ -15,6 +12,7 @@ fixed: bool
 
 optional > callback, size, color, fixed*separate paragraph*
 default > size: 18, color: #FAB400, fixed: false
+...
 ```
 var myRating = rating(element, 2, 5, null, 56, 'blue', true);
 var myRating = rating(element, 0, 5, function(value){alert(value);}, 18, '#555555', true);
