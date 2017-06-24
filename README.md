@@ -10,7 +10,7 @@ star size in pixel
 color: string
 fixed: bool
 
-optional > callback, size, color, fixed*separate paragraph*
+optional > callback, size, color, fixed
 default > size: 18, color: #FAB400, fixed: false
 ```
 ```
