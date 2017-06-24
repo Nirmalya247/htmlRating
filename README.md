@@ -1,13 +1,13 @@
-# htmlRating
 create rating element in html, get value, set size, set color, set if rate value is fixed
 
 example >
 
-/*value: 2, max: 5, callback: null, star size in pixel, color: blue, fixed: true*/
+//value: 2, max: 5, callback: null, star size in pixel, color: blue, fixed: true
+
 var myRating = rating(rate1, 2, 5, null, 56, 'blue', true);
-_________________________________________
+___
 html
-_________________________________________
+
 <html>
 <head>
   <script src="rating.js"></script>
@@ -35,3 +35,4 @@ _________________________________________
 	</script>
 </body>
 </html>
+___
