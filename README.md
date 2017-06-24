@@ -3,11 +3,11 @@ create rating element in html, get value, set size, set color, set if rate value
 example >
 
 //value: 2, max: 5, callback: null, star size in pixel, color: blue, fixed: true
-
+```
 var myRating = rating(rate1, 2, 5, null, 56, 'blue', true);
+```
 ___
-html
-
+```
 <html>
 <head>
   <script src="rating.js"></script>
@@ -35,4 +35,4 @@ html
 	</script>
 </body>
 </html>
-___
+```
