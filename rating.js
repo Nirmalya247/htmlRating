@@ -10,7 +10,7 @@
       if (!maxRating) { throw Error('No max rating supplied.'); }
       if (!currentRating) { currentRating = 0; }
       if (currentRating < 0 || currentRating > maxRating) { throw Error('Current rating is out of bounds.'); }
-	  el.style.cssText += 'list-style: none; margin: 0; padding: 0;';
+	  el.style.cssText += 'list-style: none; padding: 0;';
       for (var i = 0; i < maxRating; i++) {
         var star = document.createElement('li');
         star.classList.add('c-rating__item');
